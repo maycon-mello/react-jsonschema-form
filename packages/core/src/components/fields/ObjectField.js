@@ -290,6 +290,7 @@ class ObjectField extends Component {
       schema,
       formData,
       formContext,
+      onChange: this.props.onChange,
     };
     return <Template {...templateProps} onAddClick={this.handleAddClick} />;
   }
